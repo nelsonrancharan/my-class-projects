@@ -34,6 +34,7 @@ header {
 }
 
 #column-1 {
+  /*beige*/
   background: #f5f5dc;
 }
 
@@ -60,10 +61,13 @@ footer {
 
 @media (min-width: 768px) {
   header {
+
     background-color: #0000ff;
   }
 
+
   #column-1 {
+    /*violet*/
     background-color:#8a2be2 ;
   }
 
@@ -73,10 +77,16 @@ footer {
 
   #column-3 {
     background-color:#dc143c ;
+    width:100%;
   }
+
 
   footer {
     background-color:#008b8b ;
+  }
+
+  .col-3 {
+    width:50%;
   }
   
 }
@@ -89,19 +99,25 @@ footer {
   }
 
   #column-1 {
+    /*slate gray */
     background-color: #2f4f4f;
   }
 
   #column-2 {
-    background-color: #4b0082 ;
+    background-color: #9D50C7 ;
   }
 
   #column-3 {
     background-color: #4b0082 ;
+    width:33.3%;
+  
   }
 
   footer {
     background-color: #b0c4de ;
   }
    
+  .col-3 {
+    width:33.3%;
+  }
 }
